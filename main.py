@@ -7,7 +7,7 @@ from agents import CustomAgents
 from tasks import CustomTasks
 
 # Set up environment variables
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "PLACE API KEY"
 
 class AutomationCrew:
     def __init__(self, business_info):
