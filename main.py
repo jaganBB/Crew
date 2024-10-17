@@ -7,7 +7,7 @@ from agents import CustomAgents
 from tasks import CustomTasks
 
 # Set up environment variables
-os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY_HERE"
+os.environ["OPENAI_API_KEY"] = config("OPENAI_API_KEY")
 
 class AutomationCrew:
     def __init__(self, business_info):
